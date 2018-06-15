@@ -1,0 +1,20 @@
+<template>
+  <div>
+    <h1>ERB compiled by Webpacker</h1>
+    <p><%= @from_request %></p>
+    <p><%= ErbTest.not_from_request %></p>
+  </div>
+</template>
+
+<script>
+export default {
+  data: function () {
+    return {
+      message: "Hello Vue!"
+    }
+  }
+}
+</script>
+
+<style scoped>
+</style>
